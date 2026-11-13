@@ -30,7 +30,7 @@ notes-app-2tier/
 │   └── package.json
 ├── docker-compose.yml      # Orchestrates both containers
 └── README.md
-
+```
 🚀 How to Run - 
 
 1. Clone the repository:
