@@ -1,0 +1,38 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: notes-backend:latest
+    container_name: notes-backend
+    expose:
+      - "5000"  # Backend ab directly bahar expose nahi hoga, sirf Nginx isse baat karega
+    environment:
+      - PORT=5000
+      - DB_PATH=/data/notes.db
+    volumes:
+      - notes-data:/data
+    restart: unless-stopped
+    networks:
+      - notes-net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: notes-frontend:latest
+    container_name: notes-frontend
+    ports:
+      - "3000:80" # Sirf frontend ka port khulega
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - notes-net
+
+volumes:
+  notes-data:
+
+networks:
+  notes-net:
+    driver: bridge
