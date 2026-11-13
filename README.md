@@ -72,7 +72,7 @@ Containerization: Docker, Docker Compos
 
 
 Author -
-Your Name : Manish Kumar
+Name : Manish Kumar
 
 GitHub: @Manish-281 - https://github.com/Manish-281
 
