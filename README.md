@@ -11,8 +11,6 @@ This app is divided into two main tiers, both running in isolated Docker contain
 - **Tier 2 (Backend):** Node.js + Express API server.
 - **Database:** SQLite. The database file is persisted on the host machine using a **Docker Named Volume** (`notes-data`), ensuring data is not lost when containers restart.
 
-🚀 Live URL : 
-
 ## 📂 Project Structure
 
 ```text
