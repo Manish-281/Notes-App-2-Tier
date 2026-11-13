@@ -35,7 +35,7 @@ notes-app-2tier/
 
 1. Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/notes-app-2tier.git
+git clone https://github.com/Manish-281/Notes-App-2-Tier.git
 cd notes-app-2tier
 
 2. Build and run the containers:
