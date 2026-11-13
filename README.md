@@ -70,9 +70,11 @@ Web Server / Reverse Proxy: Nginx (Alpine)
 
 Containerization: Docker, Docker Compos
 
-Author
+
+Author -
 Your Name : Manish Kumar
 
 GitHub: @Manish-281 - https://github.com/Manish-281
+
 LinkedIn: Your LinkedIn - https://www.linkedin.com/in/manishk670/
 
