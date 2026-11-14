@@ -74,7 +74,7 @@ app.delete('/api/notes/:id', (req, res) => {
 });
 
 // Read PORT from env (useful for Docker/K8s), default to 5000
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // Start the server on all interfaces so Docker/K8s can reach it
 app.listen(PORT, '0.0.0.0', () => {
