@@ -11,8 +11,6 @@ This app is divided into two main tiers, both running in isolated Docker contain
 - **Tier 2 (Backend):** Node.js + Express API server.
 - **Database:** SQLite. The database file is persisted on the host machine using a **Docker Named Volume** (`notes-data`), ensuring data is not lost when containers restart.
 
-🚀 Live URL : 
-
 ## 📂 Project Structure
 
 ```text
@@ -30,12 +28,12 @@ notes-app-2tier/
 │   └── package.json
 ├── docker-compose.yml      # Orchestrates both containers
 └── README.md
-
+```
 🚀 How to Run - 
 
 1. Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/notes-app-2tier.git
+git clone https://github.com/Manish-281/Notes-App-2-Tier.git
 cd notes-app-2tier
 
 2. Build and run the containers:
@@ -70,9 +68,11 @@ Web Server / Reverse Proxy: Nginx (Alpine)
 
 Containerization: Docker, Docker Compos
 
-Author
-Your Name : Manish Kumar
+
+Author -
+Name : Manish Kumar
 
 GitHub: @Manish-281 - https://github.com/Manish-281
+
 LinkedIn: Your LinkedIn - https://www.linkedin.com/in/manishk670/
 
