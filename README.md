@@ -2,6 +2,8 @@
 
 A simple, fully containerized Notes application built with React, Node.js, Express, and SQLite. This project is designed as a **2-Tier Architecture** to practice DevOps workflows including Docker, Docker Compose, CI/CD (Jenkins), and Kubernetes.
 
+🚀 LIVE URL: http://43.205.164.180:3001/
+
 ## 🏗️ Architecture
 
 This app is divided into two main tiers, both running in isolated Docker containers:
